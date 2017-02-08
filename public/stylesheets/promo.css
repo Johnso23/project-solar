@@ -1,0 +1,113 @@
+h1 {
+	/*position: absolute;*/
+	text-align: center;
+	background-image: url("../images/sunani.gif");
+	/*background-repeat: no-repeat;*/
+	background-size: contain;
+	height: 100px;
+	padding-top: 25px;
+	background-color: #669CF5
+
+}
+
+body {
+	background-color: #669CF5
+}
+
+p {
+	font-size: 18px;
+	color: black;
+}
+
+.pic1 {
+	height: 200px;
+	width: 275px;
+	box-shadow: -50px 35px 113px;
+}
+
+.pic2 {
+	height: 250px;
+	width: 275px;
+	margin-top: 100px;
+	box-shadow: 50px 50px 113px; /*#defeec inset,-50px -50px 110px #defeec inset;*/
+}
+/*.save {
+	background-image: url(..images/savemoney.gif);
+}*/
+
+
+
+.parallax1 {
+	box-shadow: 0 7px 18px #323131 inset,0 -7px 18px #323131 inset;
+	background-image: url("../images/spower1.jpg");
+	 /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+	box-shadow: 0 7px 18px #323131 inset,0 -7px 18px #323131 inset;
+	background-image: url("../images/spower3.jpg");
+	 /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+	box-shadow: 0 7px 18px #323131 inset,0 -7px 18px #323131 inset;
+	background-image: url("../images/money2.jpg");
+	 /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+	box-shadow: 0 7px 18px #323131 inset,0 -7px 18px #323131 inset;
+	background-image: url("../images/spower2.jpg");
+	/*<iframe width="560" height="315" src="https://www.youtube.com/embed/EnYjlsGXugo" frameborder="0" allowfullscreen></iframe>*/
+	 /* Set a specific height */
+    min-height: 800px;
+    
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*resize image to 100% of image on webpage*/
+    background-size: 100% 100%;
+
+}
+
+/*.container {
+	width: 1000px;
+	height: 1000px;
+	text-align: center;
+	align-content: center;
+}*/
+
+.row {
+	/*width: 100%;*/
+	border: 1px solid black;
+	padding: 25px;
+	margin: 0 auto;
+	/*border-radius: 5px;*/
+	text-align: center;
+	align-content: center;
+	background-color: lightgreen;
+}
+
